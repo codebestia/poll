@@ -73,8 +73,8 @@ scarb build
 
 1. Deploy the contract to StarkNet:
 ```bash
-starknet-compile voting_contract.cairo --output voting_contract_compiled.json
-starknet deploy --contract voting_contract_compiled.json
+npm install
+npm run deploy
 ```
 
 2. Save the deployed contract address for future interactions.
